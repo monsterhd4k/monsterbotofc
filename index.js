@@ -406,7 +406,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
           }
         ]
-        await alpha.send5ButImg(from, lang.tos(ownernomer) , `© ${ownername}`,qris, but , { userJid: m.chat, quoted: m })
+        await alpha.send5ButImg(from, lang.tos(ownernomer) , `© ${botname}`,qris, but , { userJid: m.chat, quoted: m })
      break
       
 //Random Anime
@@ -731,7 +731,7 @@ break
 									}
 								]
 							}], {quoted:fgif})
-                if (!listhades.includes(text)) return alpha.sendList(from, 'Mau set menu bang ?', `© ${ownername}`, salam + pushname, 'KLIK DISINI', [
+                if (!listhades.includes(text)) return alpha.sendList(from, 'Mau set menu bang ?', `© ${botname}`, salam + pushname, 'KLIK DISINI', [
 							{
 								"title": "Set Menu-1",
 								"rows": [
@@ -862,7 +862,7 @@ var but = [
             }
           }
         ]
-        await alpha.send5ButLoc(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, but )
+        await alpha.send5ButLoc(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${botname}`,pp_bot, but )
 }
 }
         break    
@@ -900,7 +900,7 @@ case 'allmenu':
             }
           }
         ]
-        await alpha.send5ButLoc(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, but )
+        await alpha.send5ButLoc(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${botname}`,pp_bot, but )
         break   
 case 'ownercmd': case'ownermenu':
  var ownercmd = await getBuffer(flaming+'Menu del Owner')
