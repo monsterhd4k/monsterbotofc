@@ -376,32 +376,32 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝙔𝙤𝙪𝙏𝙪𝙗𝙚",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑅𝑢𝑙𝑒𝑠",
+              "displayText": "𝙍𝙚𝙜𝙡𝙖𝙨,
 "id": 'rules'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐿𝑖𝑠𝑡 𝑐𝑜𝑚𝑚𝑎𝑛𝑑",
+              "displayText": "𝙈𝙚𝙣𝙪 𝙙𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨",
 "id": 'command'
             }
           }
@@ -760,104 +760,104 @@ if(m.isGroup){
 var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝙔𝙤𝙪𝙏𝙪𝙗𝙚",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+              "displayText": "𝘿𝙤𝙣𝙖𝙘𝙞𝙤𝙣",
 "id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐿𝑖𝑠𝑡 𝑐𝑜𝑚𝑚𝑎𝑛𝑑",
+              "displayText": "𝙇𝙞𝙨𝙩𝙖 𝙙𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨",
 "id": 'command'
             }
           }
         ]
-        await alpha.send5ButLoc(from, lang.menunya(salam, pushname) , `© ${ownername}`,pp_bot, but )
+        await alpha.send5ButLoc(from, lang.menunya(salam, pushname) , `© ${botname}`,pp_bot, but )
         }
         if(typemenu == 'templateTenor'){
          but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝙔𝙤𝙪𝙏𝙪𝙗𝙚",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+              "displayText": "𝘿𝙤𝙣𝙖𝙘𝙞𝙤𝙣",
 "id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐿𝑖𝑠𝑡 𝑐𝑜𝑚𝑚𝑎𝑛𝑑",
+              "displayText": "𝙇𝙞𝙨𝙩𝙖 𝙙𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨",
 "id": 'command'
             }
           }
         ]
-         alpha.send5ButGif(from, lang.menunya(salam, pushname) , `© ${ownername}` ,pp_bot, but , {quoted: m})
+         alpha.send5ButGif(from, lang.menunya(salam, pushname) , `© ${botname}` ,pp_bot, but , {quoted: m})
          }
         } else {
 var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝙔𝙤𝙪𝙏𝙪𝙗𝙚",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+              "displayText": "𝘿𝙤𝙣𝙖𝙘𝙞𝙤𝙣",
 "id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝑅𝑢𝑙𝑒𝑠",
+              "displayText": "𝙍𝙚𝙜𝙡𝙖𝙨",
 "id": 'rules'
             }
           }
@@ -870,32 +870,32 @@ case 'allmenu':
 	var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝙔𝙤𝙪𝙏𝙪𝙗𝙚",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+              "displayText": "𝘿𝙤𝙣𝙖𝙘𝙞𝙤𝙣",
 "id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝑅𝑢𝑙𝑒𝑠",
+              "displayText": "𝙍𝙚𝙜𝙡𝙖𝙨",
 "id": 'rules'
             }
           }
@@ -903,450 +903,450 @@ case 'allmenu':
         await alpha.send5ButLoc(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, but )
         break   
 case 'ownercmd': case'ownermenu':
- var ownercmd = await getBuffer(flaming+'Owner Menu')
+ var ownercmd = await getBuffer(flaming+'Menu del Owner')
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝙔𝙤𝙪𝙏𝙪𝙗𝙚",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+              "displayText": "𝘿𝙤𝙣𝙖𝙘𝙞𝙤𝙣",
 "id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "𝙍𝙚𝙜𝙧𝙚𝙨𝙖𝙧 𝙖 𝙡𝙖 𝙡𝙞𝙨𝙩𝙖",
 "id": 'command'
             }
           }
         ]
-        await alpha.send5ButLoc(from, lang.ownermenu(prefix) , `© ${ownername}`,ownercmd, but )
+        await alpha.send5ButLoc(from, lang.ownermenu(prefix) , `© ${botname}`,ownercmd, but )
         break 
     case 'animecmd': case 'animemenu':
- var animecmd = await getBuffer(flaming+'Anime Menu')
+ var animecmd = await getBuffer(flaming+'Menu de Anime')
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝙔𝙤𝙪𝙏𝙪𝙗𝙚",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+              "displayText": "𝘿𝙤𝙣𝙖𝙘𝙞𝙤𝙣",
 "id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "𝙍𝙚𝙜𝙧𝙚𝙨𝙖𝙧 𝙖 𝙡𝙖 𝙡𝙞𝙨𝙩𝙖",
 "id": 'command'
             }
           }
         ]
-        await alpha.send5ButLoc(from, lang.anime(prefix) , `© ${ownername}`,animecmd, but )
+        await alpha.send5ButLoc(from, lang.anime(prefix) , `© ${botname}`,animecmd, but )
         break 
             case 'groupcmd': case 'groupmenu':
- var groupcmd = await getBuffer(flaming+'Group Menu')
+ var groupcmd = await getBuffer(flaming+'Menu de Grupo')
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝙔𝙤𝙪𝙏𝙪𝙗𝙚",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+              "displayText": "𝘿𝙤𝙣𝙖𝙘𝙞𝙤𝙣",
 "id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "𝙍𝙚𝙜𝙧𝙚𝙨𝙖𝙧 𝙖 𝙡𝙖 𝙡𝙞𝙨𝙩𝙖",
 "id": 'command'
             }
           }
         ]
-        await alpha.send5ButLoc(from, lang.group(prefix) , `© ${ownername}`,groupcmd, but )
+        await alpha.send5ButLoc(from, lang.group(prefix) , `© ${botname}`,groupcmd, but )
         break 
         case 'searchcmd': case 'searchmenu':
- var searchcmd = await getBuffer(flaming+'Search Menu')
+ var searchcmd = await getBuffer(flaming+'Menu de Busqueda')
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝙔𝙤𝙪𝙏𝙪𝙗𝙚",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+              "displayText": "𝘿𝙤𝙣𝙖𝙘𝙞𝙤𝙣",
 "id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "𝙍𝙚𝙜𝙧𝙚𝙨𝙖𝙧 𝙖 𝙡𝙖 𝙡𝙞𝙨𝙩𝙖",
 "id": 'command'
             }
           }
         ]
-        await alpha.send5ButLoc(from, lang.search(prefix) , `© ${ownername}`,searchcmd, but )
+        await alpha.send5ButLoc(from, lang.search(prefix) , `© ${botname}`,searchcmd, but )
         break 
         case 'convertercmd': case 'convertmenu':
- var convertercmd = await getBuffer(flaming+'Convert Menu')
+ var convertercmd = await getBuffer(flaming+'Menu de Conversion')
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝙔𝙤𝙪𝙏𝙪𝙗𝙚",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+              "displayText": "𝘿𝙤𝙣𝙖𝙘𝙞𝙤𝙣",
 "id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "𝙍𝙚𝙜𝙧𝙚𝙨𝙖𝙧 𝙖 𝙡𝙖 𝙡𝙞𝙨𝙩𝙖",
 "id": 'command'
             }
           }
         ]
-        await alpha.send5ButLoc(from, lang.converter(prefix) , `© ${ownername}`,convertercmd, but )
+        await alpha.send5ButLoc(from, lang.converter(prefix) , `© ${botname}`,convertercmd, but )
         break 
         case 'stickercmd': case 'stickermenu':
- var stickercmd = await getBuffer(flaming+'Sticker Effect Menu')
+ var stickercmd = await getBuffer(flaming+'Menu de Efectos')
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝙔𝙤𝙪𝙏𝙪𝙗𝙚",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+              "displayText": "𝘿𝙤𝙣𝙖𝙘𝙞𝙤𝙣",
 "id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "𝙍𝙚𝙜𝙧𝙚𝙨𝙖𝙧 𝙖 𝙡𝙖 𝙡𝙞𝙨𝙩𝙖",
 "id": 'command'
             }
           }
         ]
-        await alpha.send5ButLoc(from, lang.effect(prefix) , `© ${ownername}`,stickercmd, but )
+        await alpha.send5ButLoc(from, lang.effect(prefix) , `© ${botname}`,stickercmd, but )
         break 
         case 'downloadercmd': case 'downloadmenu':
- var downloadercmd = await getBuffer(flaming+'Download Menu')
+ var downloadercmd = await getBuffer(flaming+'Menu de Descargas')
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝙔𝙤𝙪𝙏𝙪𝙗𝙚",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+              "displayText": "𝘿𝙤𝙣𝙖𝙘𝙞𝙤𝙣",
 "id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "𝙍𝙚𝙜𝙧𝙚𝙨𝙖𝙧 𝙖 𝙡𝙖 𝙡𝙞𝙨𝙩𝙖",
 "id": 'command'
             }
           }
         ]
-        await alpha.send5ButLoc(from, lang.download(prefix) , `© ${ownername}`,downloadercmd, but )
+        await alpha.send5ButLoc(from, lang.download(prefix) , `© ${botname}`,downloadercmd, but )
         break 
         case 'ranimecmd': case 'animemenu':
- var ranimecmd = await getBuffer(flaming+'Random Anime')
+ var ranimecmd = await getBuffer(flaming+'Anime Random')
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝙔𝙤𝙪𝙏𝙪𝙗𝙚",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+              "displayText": "𝘿𝙤𝙣𝙖𝙘𝙞𝙤𝙣",
 "id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "𝙍𝙚𝙜𝙧𝙚𝙨𝙖𝙧 𝙖 𝙡𝙖 𝙡𝙞𝙨𝙩𝙖",
 "id": 'command'
             }
           }
         ]
-        await alpha.send5ButLoc(from, lang.ranime(prefix) , `© ${ownername}`,ranimecmd, but )
+        await alpha.send5ButLoc(from, lang.ranime(prefix) , `© ${botname}`,ranimecmd, but )
         break 
         case 'othercmd': case 'orhermenu':
- var othercmd = await getBuffer(flaming+'Others Menu')
+ var othercmd = await getBuffer(flaming+'Menu Variado')
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝙔𝙤𝙪𝙏𝙪𝙗𝙚",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+              "displayText": "𝘿𝙤𝙣𝙖𝙘𝙞𝙤𝙣",
 "id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "𝙍𝙚𝙜𝙧𝙚𝙨𝙖𝙧 𝙖 𝙡𝙖 𝙡𝙞𝙨𝙩𝙖",
 "id": 'command'
             }
           }
         ]
-        await alpha.send5ButLoc(from, lang.other(prefix) , `© ${ownername}`,othercmd, but )
+        await alpha.send5ButLoc(from, lang.other(prefix) , `© ${botname}`,othercmd, but )
         break 
         case 'textprocmd': case 'textpromenu':
- var textprocmd = await getBuffer(flaming+'Textpro Menu')
+ var textprocmd = await getBuffer(flaming+'Menu de TextPro')
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝙔𝙤𝙪𝙏𝙪𝙗𝙚",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+              "displayText": "𝘿𝙤𝙣𝙖𝙘𝙞𝙤𝙣",
 "id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "𝙍𝙚𝙜𝙧𝙚𝙨𝙖𝙧 𝙖 𝙡𝙖 𝙡𝙞𝙨𝙩𝙖",
 "id": 'command'
             }
           }
         ]
-        await alpha.send5ButLoc(from, lang.textpro(prefix) , `© ${ownername}`,textprocmd, but )
+        await alpha.send5ButLoc(from, lang.textpro(prefix) , `© ${botname}`,textprocmd, but )
         break 
         
         case 'thanksto': case 'tqto':{
- var thanksto = await getBuffer(flaming+'Contributors')
+ var thanksto = await getBuffer(flaming+'Contribuidores')
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝙔𝙤𝙪𝙏𝙪𝙗𝙚",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+              "displayText": "𝘿𝙤𝙣𝙖𝙘𝙞𝙤𝙣",
 "id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "𝙍𝙚𝙜𝙧𝙚𝙨𝙖𝙧 𝙖 𝙡𝙖 𝙡𝙞𝙨𝙩𝙖",
 "id": 'command'
             }
           }
         ]
-        await alpha.send5ButLoc(from, lang.tqto(prefix) , `© ${ownername}`,thanksto, but )
+        await alpha.send5ButLoc(from, lang.tqto(prefix) , `© ${botname}`,thanksto, but )
         }
 break 
 case 'nsfwcmd': case 'nsfwcommand':{
- var thanksto = await getBuffer(flaming+'Nsfw Menu')
+ var thanksto = await getBuffer(flaming+'Menu +18')
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝙔𝙤𝙪𝙏𝙪𝙗𝙚",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+              "displayText": "𝘿𝙤𝙣𝙖𝙘𝙞𝙤𝙣",
 "id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "𝙍𝙚𝙜𝙧𝙚𝙨𝙖𝙧 𝙖 𝙡𝙖 𝙡𝙞𝙨𝙩𝙖",
 "id": 'command'
             }
           }
         ]
-        await alpha.send5ButLoc(from, lang.nsfw(prefix) , `© ${ownername}`,thanksto, but )
+        await alpha.send5ButLoc(from, lang.nsfw(prefix) , `© ${botname}`,thanksto, but )
         }
 break 
         case 'yts': case 'ytsearch':
@@ -1355,16 +1355,15 @@ var aramas = await yts(srch);
 aramat = aramas.all 
 var tbuff = await getBuffer(aramat[0].image)
 var ytresult = '';
-ytresult += '「 *YOUTUBE SEARCH* 」'
+ytresult += '「 *BUSQUEDA DE YOUTUBE* 」'
 ytresult += '\n________________________\n\n'
 aramas.all.map((video) => {
-ytresult += '🐣 Title: ' + video.title + '\n'
+ytresult += '✏️ Titulo: ' + video.title + '\n'
 ytresult += '🔗 Link: ' + video.url + '\n'
-ytresult += '⏳ Durasi: ' + video.timestamp + '\n'
-ytresult += '😎 Views: ' + video.views + '\n'
-ytresult += '⏰ Upload: ' + video.ago + '\n________________________\n\n'
+ytresult += '⏳ Duracion: ' + video.timestamp + '\n'
+ytresult += '⏰ Fecha de Subida: ' + video.ago + '\n________________________\n\n'
 });
-ytresult += '*WHATSAPP-BOT*'
+ytresult += '*© Monster-Bot*'
 alpha.sendMessage(from, {image: tbuff, caption: ytresult}, {quoted:m})
 
 break
