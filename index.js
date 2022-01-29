@@ -389,7 +389,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
           },
           {
             "quickReplyButton": {
-              "displayText": "𝙍𝙚𝙜𝙡𝙖𝙨,
+              "displayText": "𝙍𝙚𝙜𝙡𝙖𝙨",
 "id": 'rules'
             }
           },
@@ -857,7 +857,7 @@ var but = [
           },
 {
             "quickReplyButton": {
-              "displayText": "𝙍𝙚𝙜𝙡𝙖𝙨",
+              "displayText": "𝙍𝙚𝙜𝙡𝙖𝙨"",
 "id": 'rules'
             }
           }
@@ -895,7 +895,7 @@ case 'allmenu':
           },
 {
             "quickReplyButton": {
-              "displayText": "𝙍𝙚𝙜𝙡𝙖𝙨",
+              "displayText": "𝙍𝙚𝙜𝙡𝙖𝙨"",
 "id": 'rules'
             }
           }
