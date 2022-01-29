@@ -857,7 +857,7 @@ var but = [
           },
 {
             "quickReplyButton": {
-              "displayText": "𝙍𝙚𝙜𝙡𝙖𝙨"",
+              "displayText": "𝙍𝙚𝙜𝙡𝙖𝙨",
 "id": 'rules'
             }
           }
@@ -895,7 +895,7 @@ case 'allmenu':
           },
 {
             "quickReplyButton": {
-              "displayText": "𝙍𝙚𝙜𝙡𝙖𝙨"",
+              "displayText": "𝙍𝙚𝙜𝙡𝙖𝙨",
 "id": 'rules'
             }
           }
