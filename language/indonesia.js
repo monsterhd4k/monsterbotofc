@@ -632,7 +632,7 @@ return`
 `}
 
 exports.group = (prefix) =>{
-	return`
+	return`*Group*
 » ${prefix}antilink [on/off]
 » ${prefix}revoke
 » ${prefix}leave
