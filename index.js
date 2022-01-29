@@ -401,7 +401,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
           },
 {
             "quickReplyButton": {
-              "displayText": "𝙈𝙚𝙣𝙪 𝙙𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨",
+              "displayText": "𝙇𝙞𝙨𝙩𝙖 𝙙𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨",
 "id": 'command'
             }
           }
