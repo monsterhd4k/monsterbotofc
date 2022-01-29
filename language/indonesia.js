@@ -1,114 +1,111 @@
 exports.private = () =>{
-	return`Fitur hanya bisa di gunakan di private chat`
+	return`Esta función solo se puede usar en el chat privado.`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `[⏳] Espere un momento...`
 }
 
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `[✅] Hecho.`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `[⚠️] Error de caracteristica.`
 }
 exports.erorLink = () => {
-    return `⚠️ Link nya error`
+    return `[⚠️] Link incorrecto.`
 }
 exports.media = () => {
-    return `Silahkan pilih media yang ingin kamu download`
+    return `Seleccione los medios que desea descargar.`
 }
 exports.replyImg = (prefix, command) => {
-    return `Kirim/Reply Foto Dengan Caption ${prefix + command}`
+    return `Enviar/responder foto con texto ${prefix + command}`
 }
 
 exports.wrongFormat = (prefix) => {
-    return `Format salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu*.`
+    return `[❌] Formato incorrecto, Por favor verifique cómo usar en *${prefix}allmenu*.`
 }
 
 exports.emptyMess = () => {
-    return `❎ Harap masukkan pesan yang ingin disampaikan!`
+    return `[❌] Por favor, introduzca el mensaje que desea publicar!`
 }
 
 exports.cmdNotFound = (cmd, prefix) => {
-    return `❎ Command *${cmd}* tidak terdaftar di *${prefix}allmenu*`
+    return `[❌] El Comando *${cmd}* no esta registrado en *${prefix}allmenu*`
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner!`
+    return `[❌] ¡Este comando es específicamente para el Propietario!`
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Owner ~`
+    return `[✅] Hecho, owner.`
 }
 
 exports.groupOnly = () => {
-    return `👥  Command ini hanya bisa digunakan di dalam grup!`
+    return `[❌] ¡Este comando solo se puede usar en grupos!`
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `[❌] ¡Este comando solo puede ser utilizado por administradores de grupo!`
 }
 
 exports.nhFalse = () => {
-    return `Kode tidak valid!`
+    return `[❌] Codigo invalido.`
 }
 
 exports.listBlock = (blockNumber) => {
-    return `*── 『 HALL OF SHAME 』 ──*
+    return `*── 『 SALA DE LA VERGÜENZA 』 ──*
     
-Total diblokir: *${blockNumber.length}* user\n`
+Bloqueados: *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return `❎ User bukan seorang admin! ❎`
+    return `[❌] ¡El usuario no es un administrador!`
 }
 
 exports.adminAlready = () => {
-    return `❎ Tidak  dapat mem-promote user yang merupakan admin!`
+    return `[❌] ¡No se puede promocionar a un usuario que es administrador!`
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `[❌] ¡Haz que el bot sea administrador primero!`
 }
 
 exports.received = (pushname) => {
     return `
-Halo ${pushname}!
-Terima kasih telah melapor, laporanmu akan kami segera terima.`
+Hola ${pushname}!
+Gracias por informar, pronto recibiremos su informe.`
 }
 
 exports.videoLimit = () => {
-    return `Ukuran file terlalu besar!`
+    return `[❌] ¡El tamaño del archivo es demasiado grande!`
 }
 
 exports.notNum = (q) => {
-    return `"${q}", bukan angka!`
+    return `"${q}", no existe!`
 }
 exports.menunya = (salam, pushname) =>{
-	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya Alphabot-Md, bot ini adalah Beta Multi-Device Whatsapp. 
-Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
-lapor owner agar segera di perbaiki 🙏      
+	return`Hola *${pushname}* 👋🏻 
+Este es un bot para Whatsapp Beta para múltiples dispositivos.
+Si encuentra algún tipo de error o falla, por favor comprenda,
+reporta al dueño para que se arregle inmediatamente. 🔧      
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
-    return `*Hai Kak ${pushname} Selamat ${salam} 👋*
+    return `Hola ${pushname}* 👋🏻
 
-⏰ *Time Server : ${time}*
-👤 *Owner : 𝙺𝙸𝚉𝙰𝙺𝙸𝚇𝙳*
-🌐 *Region : Indonesia*
-🔗 *Link Group : https://bit.ly/GroupItsukiBotOfficial*
-📌 *Version : 5.0.0*
+*© Monster-Bot*
+*Version: 5.0.0*
 
- 『 Bot Info 』 
+ *『 Informacion del Bot 』* 
 ➣ ${prefix}owner
 ➣ ${prefix}rules
 ➣ ${prefix}botstatus
 ➣ ${prefix}donate
 
 
- 『 Owner 』 
+ *『 Owner 』* 
 ➣  < evaluate
 ➣  > evaluate
 ➣  $ exec
@@ -123,7 +120,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}del [pesan bot]
 ➣ ${prefix}setppbot [reply image]
 
- 『 Group 』 
+ *『 Menu de Grupo 』* 
 ➣ ${prefix}antilink [on/off]
 ➣ ${prefix}revoke
 ➣ ${prefix}leave
@@ -135,14 +132,14 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}tagall [text]
 ➣ ${prefix}hidetag [text]
 
- 『 Anime 』 
+ *『 Menu de Anime 』* 
 ➣ ${prefix}quotesanime
 ➣ ${prefix}anime [query]
 ➣ ${prefix}manga [query]
 ➣ ${prefix}character [query]
 
 
- 『 Search 』 
+ *『 Menu de Busqueda 』* 
 ➣ ${prefix}ytsearch [query]
 ➣ ${prefix}film [query]
 ➣ ${prefix}wallpaper [query]
@@ -154,7 +151,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}pinterest [query]
 
 
- 『 Converter 』 
+ *『 Menu de Conversion 』* 
 ➣ ${prefix}stiker [reply image]
 ➣ ${prefix}tourl [image/video]
 ➣ ${prefix}togif [sticker]
@@ -162,7 +159,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}toimg [reply sticker]
 
 
- 『 Image Effect 』 
+ *『 Menu de Efectos 』* 
 ➣ ${prefix}wanted [reply image]
 ➣ ${prefix}utatoo [reply image]
 ➣ ${prefix}unsharpen [reply image]
@@ -218,7 +215,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}invertgreyscale [reply image]
 
 
- 『 Download 』 
+ *『 Menu de Descargas 』* 
 ➣ ${prefix}tiktok [link]
 ➣ ${prefix}tiktoknowm [link]
 ➣ ${prefix}tiktokwm [link]
@@ -242,7 +239,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}twitter link
 
 
- 『 Random Anime 』
+ *『 Anime Random 』*
 ➣ ${prefix}loli
 ➣ ${prefix}neko
 ➣ ${prefix}waifu
@@ -275,7 +272,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}dance
 ➣ ${prefix}cringe
 
- 『 Nsfw & Sfw 』
+ *『 Menu NSFW/+18 』*
 ➣ ${prefix}ahegao
 ➣ ${prefix}ass
 ➣ ${prefix}bdsm
@@ -355,7 +352,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}cuddle
 ➣ ${prefix}zettai
 
- 『 Textpro Menu 』
+ *『 Menu TextPro 』*
 ➣ ${prefix}halloween2 text|text2
 ➣ ${prefix}horror text|text2
 ➣ ${prefix}game8bit text|text2
@@ -537,64 +534,41 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}metalg text
 ➣ ${prefix}metalg text
 
-
- 『 Others 』
+ *『 Otros 』*
 ➣ ${prefix}kalkulator
 ➣ ${prefix}smeme [text]
 ➣ ${prefix}memegen [text|text]
-
-╭─❒ 『 Thanks To 』 
-├ My God
-├ My Parents
-├ Fatih A.
-├ Ferdi
-├ DikaArdnt
-├ Mhankbarbar
-├ Nurutomo
-├ Rashid
-├ ZeeoneOfc
-├ KiZakiXD
-├ Penyedia Module
-╰❒ And All Support
 
     `
 }
 
 exports.rules = (prefix) => {
     return `
-*── 『 RULES AND FAQ 』 ──*
+*── 『 REGLAS Y INFORMACION 』 ──*
 
-1. Jangan spam bot. 🙅
-Sanksi: *❎ WARN/SOFT BLOCK*
+1. No spamear al bot.
+Sancion: *❌ ADVERTENCIA/BLOQUEO*
 
-2. Jangan telepon bot. ☎️
-Sanksi: *❎ SOFT BLOCK*
+2. No llamar al bot.
+Sancion: *❌ BLOQUEO*
 
-3. Jangan mengeksploitasi bot.😖
-Sanksi: *PERMANENT BLOCK*
+3. No explotar al bot.
+Sancion: *❌ BLOQUEO PERMANENTE*
 
-🗯️ Bot tidak atau lambat merespon ?
-➡️ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan. Tetap patuhi rules‼️
+🗯️ ¿Porque el bot es lento a veces?
+➡️ Puede verse afectado por la red, la señal, prohibido por Whatsapp y alguna otra razón.
 
-🗯️ Dimana saya bisa mendapatkan Script dari bot ini ?
-➡️ Script ini masih private dan tidak pernah diperjual belikan ,bijaklah dalam mengetahui penipu.
+🗯️ ¿Dónde puedo obtener el script de este bot?
+➡️ Este script aún es privado y nunca se ha comercializado, tenga cuidado al conocer a los estafadores.
 
-🗯️ Boleh saya menambah ke grup?
-➡️ Untuk sementara bot dalam status free to add.
+🗯️ ¿Puedo agregar el bot a mi grupo?
+➡️ Por el momento el bot es de libre uso.
 
-🗯️ Prefixnya apa ya?
-➡️ Bot ini menggunakan multi prefix. Berarti anda bisa menggunakan prefix #, . , Dan prefix wajar lainnya.
-
-🗯️ Kak, kok syaa chat owner tidak direspon?
-➡️ Owner hanya merespon pertanyaan seputar bot Dan kendala eror, tidak untuk kenalan ataupun mengemis script.
+🗯️ ¿Cuál es el prefijo?
+➡️ Este bot usa múltiples prefijos. Eso significa que puede usar el prefijo "#" "." y otro prefijo razonable.
 
 
-Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
-
-⚠️ Segala kebijakan dan ketentuan Alphabot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
-
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Alphabot
-😖🙏
+Si comprende las reglas, escriba *${prefix}allmenu* para comenzar.
 `
 }
 exports.welcome = () =>{
@@ -619,17 +593,17 @@ Recode : https://github.com/zeeoneofc/Alphabot-Md
 }
 exports.tos = (ownernomer) => {
     return `
-*── 『 DONATE 』 ──*
+*── 『 DONACION 』 ──*
 
-Hai kak ☺️ 
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
+Hola!
+Puedes ayudarme a mantener este bot actualizado mediante una donación
 
-Berapapun donasi kalian akan sangat berarti 👍
+Cualquier cantidad de tu donación significará mucho. 👍🏻
 
-Thanks!
+¡Gracias!
 
-Contact person Owner:
-wa.me/${ownernomer} (Owner)
+Persona de contacto Titular:
+https://wa.me/+6285878313791
 
     `
 }
