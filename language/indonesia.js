@@ -110,109 +110,109 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣  > evaluate
 ➣  $ exec
 ➣  => exec
-➣ ${prefix}setmenu [query]
+➣ ${prefix}setmenu [texto]
 ➣ ${prefix}setmenu templateLocation
 ➣ ${prefix}setmenu templateTenor
 ➣ ${prefix}sendsesi
 ➣ ${prefix}join [link]
 ➣ ${prefix}self
-➣ ${prefix}public [only bot]
-➣ ${prefix}del [pesan bot]
-➣ ${prefix}setppbot [reply image]
+➣ ${prefix}public [bot]
+➣ ${prefix}del [bot]
+➣ ${prefix}setppbot [responde a imagen]
 
  *『 Menu de Grupo 』* 
 ➣ ${prefix}antilink [on/off]
 ➣ ${prefix}revoke
 ➣ ${prefix}leave
 ➣ ${prefix}add [62***]
-➣ ${prefix}kick @tag
+➣ ${prefix}kick [@usuario]
 ➣ ${prefix}leave
 ➣ ${prefix}linkgc
 ➣ ${prefix}group [open/close]
-➣ ${prefix}tagall [text]
-➣ ${prefix}hidetag [text]
+➣ ${prefix}tagall [texto]
+➣ ${prefix}hidetag [texto]
 
  *『 Menu de Anime 』* 
 ➣ ${prefix}quotesanime
-➣ ${prefix}anime [query]
-➣ ${prefix}manga [query]
-➣ ${prefix}character [query]
+➣ ${prefix}anime [nombre]
+➣ ${prefix}manga [nombre]
+➣ ${prefix}character [nombre]
 
 
  *『 Menu de Busqueda 』* 
-➣ ${prefix}ytsearch [query]
-➣ ${prefix}film [query]
-➣ ${prefix}wallpaper [query]
-➣ ${prefix}wikimedia [query]
+➣ ${prefix}ytsearch [titulo]
+➣ ${prefix}film [titulo]
+➣ ${prefix}wallpaper [titulo]
+➣ ${prefix}wikimedia [titulo]
 ➣ ${prefix}hentai
-➣ ${prefix}wattpad [query]
-➣ ${prefix}webtoons [query]
-➣ ${prefix}drakor [query]
-➣ ${prefix}pinterest [query]
+➣ ${prefix}wattpad [titulo]
+➣ ${prefix}webtoons [titulo]
+➣ ${prefix}drakor [titulo]
+➣ ${prefix}pinterest [titulo]
 
 
  *『 Menu de Conversion 』* 
-➣ ${prefix}stiker [reply image]
-➣ ${prefix}tourl [image/video]
+➣ ${prefix}stiker [responde a imagen]
+➣ ${prefix}tourl [imagen/video]
 ➣ ${prefix}togif [sticker]
 ➣ ${prefix}tomp4 [sticker]
-➣ ${prefix}toimg [reply sticker]
+➣ ${prefix}toimg [responde a sticker]
 
 
  *『 Menu de Efectos 』* 
-➣ ${prefix}wanted [reply image]
-➣ ${prefix}utatoo [reply image]
-➣ ${prefix}unsharpen [reply image]
-➣ ${prefix}thanos [reply image]
-➣ ${prefix}sniper [reply image]
-➣ ${prefix}sharpen [reply image]
-➣ ${prefix}sepia [reply image]
-➣ ${prefix}scary [reply image]
-➣ ${prefix}rip [reply image]
-➣ ${prefix}redple [reply image]
-➣ ${prefix}rejected [reply image]
-➣ ${prefix}posterize [reply image]
-➣ ${prefix}ps4 [reply image]
-➣ ${prefix}pixelize [reply image]
-➣ ${prefix}missionpassed [reply image]
-➣ ${prefix}moustache [reply image]
-➣ ${prefix}lookwhatkarenhave [reply image]
-➣ ${prefix}jail [reply image]
-➣ ${prefix}invert [reply image]
-➣ ${prefix}instagram [reply image]
-➣ ${prefix}greyscale [reply image]
-➣ ${prefix}glitch [reply image]
-➣ ${prefix}gay [reply image]
-➣ ${prefix}frame [reply image]
-➣ ${prefix}fire [reply image]
-➣ ${prefix}distort [reply image]
-➣ ${prefix}dictator [reply image]
-➣ ${prefix}deepfry [reply image]
-➣ ${prefix}ddungeon [reply image]
-➣ ${prefix}circle [reply image]
-➣ ${prefix}challenger [reply image]
-➣ ${prefix}burn [reply image]
-➣ ${prefix}brazzers [reply image]
-➣ ${prefix}beautiful [reply image]
-➣ ${prefix}jail [reply image]
-➣ ${prefix}red [reply image]
-➣ ${prefix}gay [reply image]
-➣ ${prefix}bloo [reply image]
-➣ ${prefix}blue [reply image]
-➣ ${prefix}sepia [reply image]
-➣ ${prefix}green [reply image]
-➣ ${prefix}glass [reply image]
-➣ ${prefix}invert [reply image]
-➣ ${prefix}blurple [reply image]
-➣ ${prefix}blurple2 [reply image]
-➣ ${prefix}wasted [reply image]
-➣ ${prefix}passed [reply image]
-➣ ${prefix}triggered [reply image]
-➣ ${prefix}comrade [reply image]
-➣ ${prefix}greyscale [reply image]
-➣ ${prefix}threshold [reply image]
-➣ ${prefix}brightness [reply image]
-➣ ${prefix}invertgreyscale [reply image]
+➣ ${prefix}wanted [responde a imagen]
+➣ ${prefix}utatoo [responde a imagen]
+➣ ${prefix}unsharpen [responde a imagen]
+➣ ${prefix}thanos [responde a imagen]
+➣ ${prefix}sniper [responde a imagen]
+➣ ${prefix}sharpen [responde a imagen]
+➣ ${prefix}sepia [responde a imagen]
+➣ ${prefix}scary [responde a imagen]
+➣ ${prefix}rip [responde a imagen]
+➣ ${prefix}redple [responde a imagen]
+➣ ${prefix}rejected [responde a imagen]
+➣ ${prefix}posterize [responde a imagen]
+➣ ${prefix}ps4 [responde a imagen]
+➣ ${prefix}pixelize [responde a imagen]
+➣ ${prefix}missionpassed [responde a imagen]
+➣ ${prefix}moustache [responde a imagen]
+➣ ${prefix}lookwhatkarenhave [responde a imagen]
+➣ ${prefix}jail [responde a imagen]
+➣ ${prefix}invert [responde a imagen]
+➣ ${prefix}instagram [responde a imagen]
+➣ ${prefix}greyscale [responde a imagen]
+➣ ${prefix}glitch [responde a imagen]
+➣ ${prefix}gay [responde a imagen]
+➣ ${prefix}frame [responde a imagen]
+➣ ${prefix}fire [responde a imagen]
+➣ ${prefix}distort [responde a imagen]
+➣ ${prefix}dictator [responde a imagen]
+➣ ${prefix}deepfry [responde a imagen]
+➣ ${prefix}ddungeon [responde a imagen]
+➣ ${prefix}circle [responde a imagen]
+➣ ${prefix}challenger [responde a imagen]
+➣ ${prefix}burn [responde a imagen]
+➣ ${prefix}brazzers [responde a imagen]
+➣ ${prefix}beautiful [responde a imagen]
+➣ ${prefix}jail [responde a imagen]
+➣ ${prefix}red [responde a imagen]
+➣ ${prefix}gay [responde a imagen]
+➣ ${prefix}bloo [responde a imagen]
+➣ ${prefix}blue [responde a imagen]
+➣ ${prefix}sepia [responde a imagen]
+➣ ${prefix}green [responde a imagen]
+➣ ${prefix}glass [responde a imagen]
+➣ ${prefix}invert [responde a imagen]
+➣ ${prefix}blurple [responde a imagen]
+➣ ${prefix}blurple2 [responde a imagen]
+➣ ${prefix}wasted [responde a imagen]
+➣ ${prefix}passed [responde a imagen]
+➣ ${prefix}triggered [responde a imagen]
+➣ ${prefix}comrade [responde a imagen]
+➣ ${prefix}greyscale [responde a imagen]
+➣ ${prefix}threshold [responde a imagen]
+➣ ${prefix}brightness [responde a imagen]
+➣ ${prefix}invertgreyscale [responde a imagen]
 
 
  *『 Menu de Descargas 』* 
@@ -221,7 +221,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}tiktokwm [link]
 ➣ ${prefix}tiktokaudio [link]
 ➣ ${prefix}ytdl [link]
-➣ ${prefix}play [query]
+➣ ${prefix}play [titulo]
 ➣ ${prefix}ytmp3 [link]
 ➣ ${prefix}ytshortmp3 [link]
 ➣ ${prefix}ytmp4 [link]
@@ -230,7 +230,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}facebooksd [link]
 ➣ ${prefix}facebookhd [link]
 ➣ ${prefix}fbaudio [link]
-➣ ${prefix}igstory [username]
+➣ ${prefix}igstory [usuario]
 ➣ ${prefix}igdl [link]
 ➣ ${prefix}igphoto [link]
 ➣ ${prefix}igvideo [link]
@@ -353,191 +353,191 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}zettai
 
  *『 Menu TextPro 』*
-➣ ${prefix}halloween2 text|text2
-➣ ${prefix}horror text|text2
-➣ ${prefix}game8bit text|text2
-➣ ${prefix}layered text|text2
-➣ ${prefix}glitch2 text|text2
-➣ ${prefix}coolg text|text2
-➣ ${prefix}coolwg text|text2
-➣ ${prefix}realistic text|text2
-➣ ${prefix}space3d text|text2
-➣ ${prefix}gtiktok text|text2
-➣ ${prefix}stone text|text2
-➣ ${prefix}marvel text|text2
-➣ ${prefix}marvel2 text|text2
-➣ ${prefix}pornhub text|text2
-➣ ${prefix}avengers text|text2
-➣ ${prefix}metalr text|text2
-➣ ${prefix}metalg text|text2
-➣ ${prefix}metalg2 text|text2
-➣ ${prefix}halloween2 text|text2
-➣ ${prefix}lion text|text2
-➣ ${prefix}wolf_bw text|text2
-➣ ${prefix}wolf_g text|text2
-➣ ${prefix}ninja text|text2
-➣ ${prefix}3dsteel text|text2
-➣ ${prefix}horror2 text|text2
-➣ ${prefix}lava text|text2
-➣ ${prefix}bagel text|text2
-➣ ${prefix}blackpink text
-➣ ${prefix}rainbow2 text
-➣ ${prefix}water_pipe text
-➣ ${prefix}halloween text
-➣ ${prefix}sketch text
-➣ ${prefix}sircuit text
-➣ ${prefix}discovery text
-➣ ${prefix}metallic2 text
-➣ ${prefix}fiction text
-➣ ${prefix}demon text
-➣ ${prefix}transformer text
-➣ ${prefix}berry text
-➣ ${prefix}thunder text
-➣ ${prefix}magma text
-➣ ${prefix}3dstone text
-➣ ${prefix}neon text
-➣ ${prefix}glitch text
-➣ ${prefix}harry_potter text
-➣ ${prefix}embossed text
-➣ ${prefix}broken text
-➣ ${prefix}papercut text
-➣ ${prefix}gradient text
-➣ ${prefix}glossy text
-➣ ${prefix}watercolor text
-➣ ${prefix}multicolor text
-➣ ${prefix}neon_devil text
-➣ ${prefix}underwater text
-➣ ${prefix}bear text
-➣ ${prefix}wonderfulg text
-➣ ${prefix}christmas text
-➣ ${prefix}neon_light text
-➣ ${prefix}snow text
-➣ ${prefix}cloudsky text
-➣ ${prefix}luxury2 text
-➣ ${prefix}gradient2 text
-➣ ${prefix}summer text
-➣ ${prefix}writing text
-➣ ${prefix}engraved text
-➣ ${prefix}summery text
-➣ ${prefix}3dglue text
-➣ ${prefix}metaldark text
-➣ ${prefix}neonlight text
-➣ ${prefix}oscar text
-➣ ${prefix}minion text
-➣ ${prefix}holographic text
-➣ ${prefix}purple text
-➣ ${prefix}glossyb text
-➣ ${prefix}deluxe2 text
-➣ ${prefix}glossyc text
-➣ ${prefix}fabric text
-➣ ${prefix}neonc text
-➣ ${prefix}newyear text
-➣ ${prefix}newyear2 text
-➣ ${prefix}metals text
-➣ ${prefix}xmas text
-➣ ${prefix}blood text
-➣ ${prefix}darkg text
-➣ ${prefix}joker text
-➣ ${prefix}wicker text
-➣ ${prefix}natural text
-➣ ${prefix}firework text
-➣ ${prefix}skeleton text
-➣ ${prefix}balloon text
-➣ ${prefix}balloon2 text
-➣ ${prefix}balloon3 text
-➣ ${prefix}balloon4 text
-➣ ${prefix}balloon5 text
-➣ ${prefix}balloon6 text
-➣ ${prefix}balloon7 text
-➣ ${prefix}steel text
-➣ ${prefix}gloss text
-➣ ${prefix}denim text
-➣ ${prefix}decorate text
-➣ ${prefix}decorate2 text
-➣ ${prefix}peridot text
-➣ ${prefix}rock text
-➣ ${prefix}glass text
-➣ ${prefix}glass2 text
-➣ ${prefix}glass3 text
-➣ ${prefix}glass4 text
-➣ ${prefix}glass5 text
-➣ ${prefix}glass6 text
-➣ ${prefix}glass7 text
-➣ ${prefix}glass8 text
-➣ ${prefix}captain_as2 text
-➣ ${prefix}robot text
-➣ ${prefix}equalizer text
-➣ ${prefix}toxic text
-➣ ${prefix}sparkling text
-➣ ${prefix}sparkling2 text
-➣ ${prefix}sparkling3 text
-➣ ${prefix}sparkling4 text
-➣ ${prefix}sparkling5 text
-➣ ${prefix}sparkling6 text
-➣ ${prefix}sparkling7 text
-➣ ${prefix}decorative text
-➣ ${prefix}chocolate text
-➣ ${prefix}strawberry text
-➣ ${prefix}koifish text
-➣ ${prefix}bread text
-➣ ${prefix}matrix text
-➣ ${prefix}blood2 text
-➣ ${prefix}neonligth2 text
-➣ ${prefix}thunder2 text
-➣ ${prefix}3dbox text
-➣ ${prefix}neon2 text
-➣ ${prefix}roadw text
-➣ ${prefix}bokeh text
-➣ ${prefix}gneon text
-➣ ${prefix}advanced text
-➣ ${prefix}dropwater text
-➣ ${prefix}wall text
-➣ ${prefix}chrismast text
-➣ ${prefix}honey text
-➣ ${prefix}drug text
-➣ ${prefix}marble text
-➣ ${prefix}marble2 text
-➣ ${prefix}ice text
-➣ ${prefix}juice text
-➣ ${prefix}rusty text
-➣ ${prefix}abstra text
-➣ ${prefix}biscuit text
-➣ ${prefix}wood text
-➣ ${prefix}scifi text
-➣ ${prefix}metalr text
-➣ ${prefix}purpleg text
-➣ ${prefix}shiny text 
-➣ ${prefix}jewelry text
-➣ ${prefix}jewelry2 text
-➣ ${prefix}jewelry3 text
-➣ ${prefix}jewelry4 text
-➣ ${prefix}jewelry5 text
-➣ ${prefix}jewelry6 text
-➣ ${prefix}jewelry7 text
-➣ ${prefix}jewelry8 text
-➣ ${prefix}metalh text
-➣ ${prefix}golden text
-➣ ${prefix}glitter text
-➣ ${prefix}glitter2 text
-➣ ${prefix}glitter3 text
-➣ ${prefix}glitter4 text
-➣ ${prefix}glitter5 text
-➣ ${prefix}glitter6 text
-➣ ${prefix}glitter7 text
-➣ ${prefix}metale text
-➣ ${prefix}carbon text
-➣ ${prefix}candy text
-➣ ${prefix}metalb text
-➣ ${prefix}gemb text
-➣ ${prefix}3dchrome text
-➣ ${prefix}metalb2 text
-➣ ${prefix}metalg text
-➣ ${prefix}metalg text
+➣ ${prefix}halloween2 [texto1|texto2]
+➣ ${prefix}horror [texto1|texto2]
+➣ ${prefix}game8bit [texto1|texto2]
+➣ ${prefix}layered [texto1|texto2]
+➣ ${prefix}glitch2 [texto1|texto2]
+➣ ${prefix}coolg [texto1|texto2]
+➣ ${prefix}coolwg [texto1|texto2]
+➣ ${prefix}realistic [texto1|texto2]
+➣ ${prefix}space3d [texto1|texto2]
+➣ ${prefix}gtiktok [texto1|texto2]
+➣ ${prefix}stone [texto1|texto2]
+➣ ${prefix}marvel [texto1|texto2]
+➣ ${prefix}marvel2 [texto1|texto2]
+➣ ${prefix}pornhub [texto1|texto2]
+➣ ${prefix}avengers [texto1|texto2]
+➣ ${prefix}metalr [texto1|texto2]
+➣ ${prefix}metalg [texto1|texto2]
+➣ ${prefix}metalg2 [texto1|texto2]
+➣ ${prefix}halloween2 [texto1|texto2]
+➣ ${prefix}lion [texto1|texto2]
+➣ ${prefix}wolf_bw [texto1|texto2]
+➣ ${prefix}wolf_g [texto1|texto2]
+➣ ${prefix}ninja [texto1|texto2]
+➣ ${prefix}3dsteel [texto1|texto2]
+➣ ${prefix}horror2 [texto1|texto2]
+➣ ${prefix}lava [texto1|texto2]
+➣ ${prefix}bagel [texto1|texto2]
+➣ ${prefix}blackpink [texto]
+➣ ${prefix}rainbow2 [texto]
+➣ ${prefix}water_pipe [texto]
+➣ ${prefix}halloween [texto]
+➣ ${prefix}sketch [texto]
+➣ ${prefix}sircuit [texto]
+➣ ${prefix}discovery [texto]
+➣ ${prefix}metallic2 [texto]
+➣ ${prefix}fiction [texto]
+➣ ${prefix}demon [texto]
+➣ ${prefix}transformer [texto]
+➣ ${prefix}berry [texto]
+➣ ${prefix}thunder [texto]
+➣ ${prefix}magma [texto]
+➣ ${prefix}3dstone [texto]
+➣ ${prefix}neon [texto]
+➣ ${prefix}glitch [texto]
+➣ ${prefix}harry_potter [texto]
+➣ ${prefix}embossed [texto]
+➣ ${prefix}broken [texto]
+➣ ${prefix}papercut [texto]
+➣ ${prefix}gradient [texto]
+➣ ${prefix}glossy [texto]
+➣ ${prefix}watercolor [texto]
+➣ ${prefix}multicolor [texto]
+➣ ${prefix}neon_devil [texto]
+➣ ${prefix}underwater [texto]
+➣ ${prefix}bear [texto]
+➣ ${prefix}wonderfulg [texto]
+➣ ${prefix}christmas [texto]
+➣ ${prefix}neon_light [texto]
+➣ ${prefix}snow [texto]
+➣ ${prefix}cloudsky [texto]
+➣ ${prefix}luxury2 [texto]
+➣ ${prefix}gradient2 [texto]
+➣ ${prefix}summer [texto]
+➣ ${prefix}writing [texto]
+➣ ${prefix}engraved [texto]
+➣ ${prefix}summery [texto]
+➣ ${prefix}3dglue [texto]
+➣ ${prefix}metaldark [texto]
+➣ ${prefix}neonlight [texto]
+➣ ${prefix}oscar [texto]
+➣ ${prefix}minion [texto]
+➣ ${prefix}holographic [texto]
+➣ ${prefix}purple [texto]
+➣ ${prefix}glossyb [texto]
+➣ ${prefix}deluxe2 [texto]
+➣ ${prefix}glossyc [texto]
+➣ ${prefix}fabric [texto]
+➣ ${prefix}neonc [texto]
+➣ ${prefix}newyear [texto]
+➣ ${prefix}newyear2 [texto]
+➣ ${prefix}metals [texto]
+➣ ${prefix}xmas [texto]
+➣ ${prefix}blood [texto]
+➣ ${prefix}darkg [texto]
+➣ ${prefix}joker [texto]
+➣ ${prefix}wicker [texto]
+➣ ${prefix}natural [texto]
+➣ ${prefix}firework [texto]
+➣ ${prefix}skeleton [texto]
+➣ ${prefix}balloon [texto]
+➣ ${prefix}balloon2 [texto]
+➣ ${prefix}balloon3 [texto]
+➣ ${prefix}balloon4 [texto]
+➣ ${prefix}balloon5 [texto]
+➣ ${prefix}balloon6 [texto]
+➣ ${prefix}balloon7 [texto]
+➣ ${prefix}steel [texto]
+➣ ${prefix}gloss [texto]
+➣ ${prefix}denim [texto]
+➣ ${prefix}decorate [texto]
+➣ ${prefix}decorate2 [texto]
+➣ ${prefix}peridot [texto]
+➣ ${prefix}rock [texto]
+➣ ${prefix}glass [texto]
+➣ ${prefix}glass2 [texto]
+➣ ${prefix}glass3 [texto]
+➣ ${prefix}glass4 [texto]
+➣ ${prefix}glass5 [texto]
+➣ ${prefix}glass6 [texto]
+➣ ${prefix}glass7 [texto]
+➣ ${prefix}glass8 [texto]
+➣ ${prefix}captain_as2 [texto]
+➣ ${prefix}robot [texto]
+➣ ${prefix}equalizer [texto]
+➣ ${prefix}toxic [texto]
+➣ ${prefix}sparkling [texto]
+➣ ${prefix}sparkling2 [texto]
+➣ ${prefix}sparkling3 [texto]
+➣ ${prefix}sparkling4 [texto]
+➣ ${prefix}sparkling5 [texto]
+➣ ${prefix}sparkling6 [texto]
+➣ ${prefix}sparkling7 [texto]
+➣ ${prefix}decorative [texto]
+➣ ${prefix}chocolate [texto]
+➣ ${prefix}strawberry [texto]
+➣ ${prefix}koifish [texto]
+➣ ${prefix}bread [texto]
+➣ ${prefix}matrix [texto]
+➣ ${prefix}blood2 [texto]
+➣ ${prefix}neonligth2 [texto]
+➣ ${prefix}thunder2 [texto]
+➣ ${prefix}3dbox [texto]
+➣ ${prefix}neon2 [texto]
+➣ ${prefix}roadw [texto]
+➣ ${prefix}bokeh [texto]
+➣ ${prefix}gneon [texto]
+➣ ${prefix}advanced [texto]
+➣ ${prefix}dropwater [texto]
+➣ ${prefix}wall [texto]
+➣ ${prefix}chrismast [texto]
+➣ ${prefix}honey [texto]
+➣ ${prefix}drug [texto]
+➣ ${prefix}marble [texto]
+➣ ${prefix}marble2 [texto]
+➣ ${prefix}ice [texto]
+➣ ${prefix}juice [texto]
+➣ ${prefix}rusty [texto]
+➣ ${prefix}abstra [texto]
+➣ ${prefix}biscuit [texto]
+➣ ${prefix}wood [texto]
+➣ ${prefix}scifi [texto]
+➣ ${prefix}metalr [texto]
+➣ ${prefix}purpleg [texto]
+➣ ${prefix}shiny [texto] 
+➣ ${prefix}jewelry [texto]
+➣ ${prefix}jewelry2 [texto]
+➣ ${prefix}jewelry3 [texto]
+➣ ${prefix}jewelry4 [texto]
+➣ ${prefix}jewelry5 [texto]
+➣ ${prefix}jewelry6 [texto]
+➣ ${prefix}jewelry7 [texto]
+➣ ${prefix}jewelry8 [texto]
+➣ ${prefix}metalh [texto]
+➣ ${prefix}golden [texto]
+➣ ${prefix}glitter [texto]
+➣ ${prefix}glitter2 [texto]
+➣ ${prefix}glitter3 [texto]
+➣ ${prefix}glitter4 [texto]
+➣ ${prefix}glitter5 [texto]
+➣ ${prefix}glitter6 [texto]
+➣ ${prefix}glitter7 [texto]
+➣ ${prefix}metale [texto]
+➣ ${prefix}carbon [texto]
+➣ ${prefix}candy [texto]
+➣ ${prefix}metalb [texto]
+➣ ${prefix}gemb [texto]
+➣ ${prefix}3dchrome [texto]
+➣ ${prefix}metalb2 [texto]
+➣ ${prefix}metalg [texto]
+➣ ${prefix}metalg [texto]
 
  *『 Otros 』*
 ➣ ${prefix}kalkulator
-➣ ${prefix}smeme [text]
-➣ ${prefix}memegen [text|text]
+➣ ${prefix}smeme [texto]
+➣ ${prefix}memegen [texto1|texto2]
 
     `
 }
@@ -609,132 +609,132 @@ https://wa.me/+6285878313791
 }
 
 exports.ownermenu = (prefix) =>{
-return`*Owner*
+return`
 • < evaluate
 • > evaluate
 • $ exec
 • => exec
-» ${prefix}setmenu [query]
+» ${prefix}setmenu [texto]
 » ${prefix}setmenu templateLocation
 » ${prefix}setmenu templateTenor
 » ${prefix}sendsesi
 » ${prefix}join [link]
 » ${prefix}self
-» ${prefix}public [only bot]
-» ${prefix}del [pesan bot]
-» ${prefix}setppbot [reply image]
+» ${prefix}public [bot]
+» ${prefix}del [bot]
+» ${prefix}setppbot [responde a imagen]
 `}
 
 exports.group = (prefix) =>{
-	return`*Group* 
+	return`
 » ${prefix}antilink [on/off]
 » ${prefix}revoke
 » ${prefix}leave
 » ${prefix}add [62***]
-» ${prefix}kick @tag
+» ${prefix}kick [@usuario]
 » ${prefix}leave
 » ${prefix}linkgc
 » ${prefix}group [open/close]
-» ${prefix}tagall [text]
-» ${prefix}hidetag [text]
+» ${prefix}tagall [texto]
+» ${prefix}hidetag [texto]
 `}
 
 exports.anime = (prefix) =>{
-	return`*Anime*
+	return`
 » ${prefix}quotesanime
-» ${prefix}anime [query]
-» ${prefix}manga [query]
-» ${prefix}character [query]
+» ${prefix}anime [nombre]
+» ${prefix}manga [nombre]
+» ${prefix}character [nombre]
 `}
 
 exports.search = (prefix) =>{
-	return`*Search*
-» ${prefix}ytsearch [query]
-» ${prefix}film [query]
-» ${prefix}wallpaper [query]
-» ${prefix}wikimedia [query]
+	return`
+» ${prefix}ytsearch [titulo]
+» ${prefix}film [ titulo ]
+» ${prefix}wallpaper [titulo]
+» ${prefix}wikimedia [titulo]
 » ${prefix}hentai
-» ${prefix}wattpad [query]
-» ${prefix}webtoons [query]
-» ${prefix}drakor [query]
-» ${prefix}pinterest [query]
+» ${prefix}wattpad [titulo]
+» ${prefix}webtoons [titulo]
+» ${prefix}drakor [titulo]
+» ${prefix}pinterest [titulo]
 `}
 
 exports.converter = (prefix) =>{
-	return`*Converter*
-» ${prefix}stiker [reply image]
-» ${prefix}tourl [image/video]
+	return`
+» ${prefix}stiker [responde a imagen]
+» ${prefix}tourl [imagen/video]
 » ${prefix}togif [sticker]
 » ${prefix}tomp4 [sticker]
-» ${prefix}toimg [reply sticker]
+» ${prefix}toimg [responde a sticker]
 `}
 
 exports.effect = (prefix) =>{
-	return`*Image Effect*
-» ${prefix}wanted [reply image]
-» ${prefix}utatoo [reply image]
-» ${prefix}unsharpen [reply image]
-» ${prefix}thanos [reply image]
-» ${prefix}sniper [reply image]
-» ${prefix}sharpen [reply image]
-» ${prefix}sepia [reply image]
-» ${prefix}scary [reply image]
-» ${prefix}rip [reply image]
-» ${prefix}redple [reply image]
-» ${prefix}rejected [reply image]
-» ${prefix}posterize [reply image]
-» ${prefix}ps4 [reply image]
-» ${prefix}pixelize [reply image]
-» ${prefix}missionpassed [reply image]
-» ${prefix}moustache [reply image]
-» ${prefix}lookwhatkarenhave [reply image]
-» ${prefix}jail [reply image]
-» ${prefix}invert [reply image]
-» ${prefix}instagram [reply image]
-» ${prefix}greyscale [reply image]
-» ${prefix}glitch [reply image]
-» ${prefix}gay [reply image]
-» ${prefix}frame [reply image]
-» ${prefix}fire [reply image]
-» ${prefix}distort [reply image]
-» ${prefix}dictator [reply image]
-» ${prefix}deepfry [reply image]
-» ${prefix}ddungeon [reply image]
-» ${prefix}circle [reply image]
-» ${prefix}challenger [reply image]
-» ${prefix}burn [reply image]
-» ${prefix}brazzers [reply image]
-» ${prefix}beautiful [reply image]
-» ${prefix}jail [reply image]
-» ${prefix}red [reply image]
-» ${prefix}gay [reply image]
-» ${prefix}bloo [reply image]
-» ${prefix}blue [reply image]
-» ${prefix}sepia [reply image]
-» ${prefix}green [reply image]
-» ${prefix}glass [reply image]
-» ${prefix}invert [reply image]
-» ${prefix}blurple [reply image]
-» ${prefix}blurple2 [reply image]
-» ${prefix}wasted [reply image]
-» ${prefix}passed [reply image]
-» ${prefix}triggered [reply image]
-» ${prefix}comrade [reply image]
-» ${prefix}greyscale [reply image]
-» ${prefix}threshold [reply image]
-» ${prefix}brightness [reply image]
-» ${prefix}invertgreyscale [reply image]
+	return`
+» ${prefix}wanted [responde a imagen]
+» ${prefix}utatoo [responde a imagen]
+» ${prefix}unsharpen [responde a imagen]
+» ${prefix}thanos [responde a imagen]
+» ${prefix}sniper [responde a imagen]
+» ${prefix}sharpen [responde a imagen]
+» ${prefix}sepia [responde a imagen]
+» ${prefix}scary [responde a imagen]
+» ${prefix}rip [responde a imagen]
+» ${prefix}redple [responde a imagen]
+» ${prefix}rejected [responde a imagen]
+» ${prefix}posterize [responde a imagen]
+» ${prefix}ps4 [responde a imagen]
+» ${prefix}pixelize [responde a imagen]
+» ${prefix}missionpassed [responde a imagen]
+» ${prefix}moustache [responde a imagen]
+» ${prefix}lookwhatkarenhave [responde a imagen]
+» ${prefix}jail [responde a imagen]
+» ${prefix}invert [responde a imagen]
+» ${prefix}instagram [responde a imagen]
+» ${prefix}greyscale [responde a imagen]
+» ${prefix}glitch [responde a imagen]
+» ${prefix}gay [responde a imagen]
+» ${prefix}frame [responde a imagen]
+» ${prefix}fire [responde a imagen]
+» ${prefix}distort [responde a imagen]
+» ${prefix}dictator [responde a imagen]
+» ${prefix}deepfry [responde a imagen]
+» ${prefix}ddungeon [responde a imagen]
+» ${prefix}circle [responde a imagen]
+» ${prefix}challenger [responde a imagen]
+» ${prefix}burn [responde a imagen]
+» ${prefix}brazzers [responde a imagen]
+» ${prefix}beautiful [responde a imagen]
+» ${prefix}jail [responde a imagen]
+» ${prefix}red [responde a imagen]
+» ${prefix}gay [responde a imagen]
+» ${prefix}bloo [responde a imagen]
+» ${prefix}blue [responde a imagen]
+» ${prefix}sepia [responde a imagen]
+» ${prefix}green [responde a imagen]
+» ${prefix}glass [responde a imagen]
+» ${prefix}invert [responde a imagen]
+» ${prefix}blurple [responde a imagen]
+» ${prefix}blurple2 [responde a imagen]
+» ${prefix}wasted [responde a imagen]
+» ${prefix}passed [responde a imagen]
+» ${prefix}triggered [responde a imagen]
+» ${prefix}comrade [responde a imagen]
+» ${prefix}greyscale [responde a imagen]
+» ${prefix}threshold [responde a imagen]
+» ${prefix}brightness [responde a imagen]
+» ${prefix}invertgreyscale [responde a imagen]
 `
 }
 
 exports.download = (prefix) =>{
-return`*Download*
+return`
 » ${prefix}tiktok [link]
 » ${prefix}tiktoknowm [link]
 » ${prefix}tiktokwm [link]
 » ${prefix}tiktokaudio [link]
 » ${prefix}ytdl [link]
-» ${prefix}play [query]
+» ${prefix}play [titulo]
 » ${prefix}ytmp3 [link]
 » ${prefix}ytshortmp3 [link]
 » ${prefix}ytmp4 [link]
@@ -743,18 +743,18 @@ return`*Download*
 » ${prefix}facebooksd [link]
 » ${prefix}facebookhd [link]
 » ${prefix}fbaudio [link]
-» ${prefix}igstory [username]
+» ${prefix}igstory [usuario]
 » ${prefix}igdl [link]
 » ${prefix}igphoto [link]
 » ${prefix}igvideo [link]
 » ${prefix}igreels [link]
 » ${prefix}igtv [link]
-» ${prefix}twitter link
+» ${prefix}twitter [link]
 `
 }
 
 exports.ranime = (prefix) =>{
-	return`*Random Anime*
+	return`
 » ${prefix}loli
 » ${prefix}neko
 » ${prefix}waifu
@@ -790,192 +790,192 @@ exports.ranime = (prefix) =>{
 }
 
 exports.textpro = (prefix) =>{
-	return`*Textpro*
-» ${prefix}halloween2 text|text2
-» ${prefix}horror text|text2
-» ${prefix}game8bit text|text2
-» ${prefix}layered text|text2
-» ${prefix}glitch2 text|text2
-» ${prefix}coolg text|text2
-» ${prefix}coolwg text|text2
-» ${prefix}realistic text|text2
-» ${prefix}space3d text|text2
-» ${prefix}gtiktok text|text2
-» ${prefix}stone text|text2
-» ${prefix}marvel text|text2
-» ${prefix}marvel2 text|text2
-» ${prefix}pornhub text|text2
-» ${prefix}avengers text|text2
-» ${prefix}metalr text|text2
-» ${prefix}metalg text|text2
-» ${prefix}metalg2 text|text2
-» ${prefix}halloween2 text|text2
-» ${prefix}lion text|text2
-» ${prefix}wolf_bw text|text2
-» ${prefix}wolf_g text|text2
-» ${prefix}ninja text|text2
-» ${prefix}3dsteel text|text2
-» ${prefix}horror2 text|text2
-» ${prefix}lava text|text2
-» ${prefix}bagel text|text2
-» ${prefix}blackpink text
-» ${prefix}rainbow2 text
-» ${prefix}water_pipe text
-» ${prefix}halloween text
-» ${prefix}sketch text
-» ${prefix}sircuit text
-» ${prefix}discovery text
-» ${prefix}metallic2 text
-» ${prefix}fiction text
-» ${prefix}demon text
-» ${prefix}transformer text
-» ${prefix}berry text
-» ${prefix}thunder text
-» ${prefix}magma text
-» ${prefix}3dstone text
-» ${prefix}neon text
-» ${prefix}glitch text
-» ${prefix}harry_potter text
-» ${prefix}embossed text
-» ${prefix}broken text
-» ${prefix}papercut text
-» ${prefix}gradient text
-» ${prefix}glossy text
-» ${prefix}watercolor text
-» ${prefix}multicolor text
-» ${prefix}neon_devil text
-» ${prefix}underwater text
-» ${prefix}bear text
-» ${prefix}wonderfulg text
-» ${prefix}christmas text
-» ${prefix}neon_light text
-» ${prefix}snow text
-» ${prefix}cloudsky text
-» ${prefix}luxury2 text
-» ${prefix}gradient2 text
-» ${prefix}summer text
-» ${prefix}writing text
-» ${prefix}engraved text
-» ${prefix}summery text
-» ${prefix}3dglue text
-» ${prefix}metaldark text
-» ${prefix}neonlight text
-» ${prefix}oscar text
-» ${prefix}minion text
-» ${prefix}holographic text
-» ${prefix}purple text
-» ${prefix}glossyb text
-» ${prefix}deluxe2 text
-» ${prefix}glossyc text
-» ${prefix}fabric text
-» ${prefix}neonc text
-» ${prefix}newyear text
-» ${prefix}newyear2 text
-» ${prefix}metals text
-» ${prefix}xmas text
-» ${prefix}blood text
-» ${prefix}darkg text
-» ${prefix}joker text
-» ${prefix}wicker text
-» ${prefix}natural text
-» ${prefix}firework text
-» ${prefix}skeleton text
-» ${prefix}balloon text
-» ${prefix}balloon2 text
-» ${prefix}balloon3 text
-» ${prefix}balloon4 text
-» ${prefix}balloon5 text
-» ${prefix}balloon6 text
-» ${prefix}balloon7 text
-» ${prefix}steel text
-» ${prefix}gloss text
-» ${prefix}denim text
-» ${prefix}decorate text
-» ${prefix}decorate2 text
-» ${prefix}peridot text
-» ${prefix}rock text
-» ${prefix}glass text
-» ${prefix}glass2 text
-» ${prefix}glass3 text
-» ${prefix}glass4 text
-» ${prefix}glass5 text
-» ${prefix}glass6 text
-» ${prefix}glass7 text
-» ${prefix}glass8 text
-» ${prefix}captain_as2 text
-» ${prefix}robot text
-» ${prefix}equalizer text
-» ${prefix}toxic text
-» ${prefix}sparkling text
-» ${prefix}sparkling2 text
-» ${prefix}sparkling3 text
-» ${prefix}sparkling4 text
-» ${prefix}sparkling5 text
-» ${prefix}sparkling6 text
-» ${prefix}sparkling7 text
-» ${prefix}decorative text
-» ${prefix}chocolate text
-» ${prefix}strawberry text
-» ${prefix}koifish text
-» ${prefix}bread text
-» ${prefix}matrix text
-» ${prefix}blood2 text
-» ${prefix}neonligth2 text
-» ${prefix}thunder2 text
-» ${prefix}3dbox text
-» ${prefix}neon2 text
-» ${prefix}roadw text
-» ${prefix}bokeh text
-» ${prefix}gneon text
-» ${prefix}advanced text
-» ${prefix}dropwater text
-» ${prefix}wall text
-» ${prefix}chrismast text
-» ${prefix}honey text
-» ${prefix}drug text
-» ${prefix}marble text
-» ${prefix}marble2 text
-» ${prefix}ice text
-» ${prefix}juice text
-» ${prefix}rusty text
-» ${prefix}abstra text
-» ${prefix}biscuit text
-» ${prefix}wood text
-» ${prefix}scifi text
-» ${prefix}metalr text
-» ${prefix}purpleg text
-» ${prefix}shiny text 
-» ${prefix}jewelry text
-» ${prefix}jewelry2 text
-» ${prefix}jewelry3 text
-» ${prefix}jewelry4 text
-» ${prefix}jewelry5 text
-» ${prefix}jewelry6 text
-» ${prefix}jewelry7 text
-» ${prefix}jewelry8 text
-» ${prefix}metalh text
-» ${prefix}golden text
-» ${prefix}glitter text
-» ${prefix}glitter2 text
-» ${prefix}glitter3 text
-» ${prefix}glitter4 text
-» ${prefix}glitter5 text
-» ${prefix}glitter6 text
-» ${prefix}glitter7 text
-» ${prefix}metale text
-» ${prefix}carbon text
-» ${prefix}candy text
-» ${prefix}metalb text
-» ${prefix}gemb text
-» ${prefix}3dchrome text
-» ${prefix}metalb2 text
-» ${prefix}metalg text
-» ${prefix}metalg text
+	return`
+» ${prefix}halloween2 [texto1|texto2]
+» ${prefix}horror [texto1|texto2]
+» ${prefix}game8bit [texto1|texto2]
+» ${prefix}layered [texto1|texto2]
+» ${prefix}glitch2 [texto1|texto2]
+» ${prefix}coolg [texto1|texto2]
+» ${prefix}coolwg [texto1|texto2]
+» ${prefix}realistic [texto1|texto2]
+» ${prefix}space3d [texto1|texto2]
+» ${prefix}gtiktok [texto1|texto2]
+» ${prefix}stone [texto1|texto2]
+» ${prefix}marvel [texto1|texto2]
+» ${prefix}marvel2 [texto1|texto2]
+» ${prefix}pornhub [texto1|texto2]
+» ${prefix}avengers [texto1|texto2]
+» ${prefix}metalr [texto1|texto2]
+» ${prefix}metalg [texto1|texto2]
+» ${prefix}metalg2 [texto1|texto2]
+» ${prefix}halloween2 [texto1|texto2]
+» ${prefix}lion [texto1|texto2]
+» ${prefix}wolf_bw [texto1|texto2]
+» ${prefix}wolf_g [texto1|texto2]
+» ${prefix}ninja [texto1|texto2]
+» ${prefix}3dsteel [texto1|texto2]
+» ${prefix}horror2 [texto1|texto2]
+» ${prefix}lava [texto1|texto2]
+» ${prefix}bagel [texto1|texto2]
+» ${prefix}blackpink [texto]
+» ${prefix}rainbow2 [texto]
+» ${prefix}water_pipe [texto]
+» ${prefix}halloween [texto]
+» ${prefix}sketch [texto]
+» ${prefix}sircuit [texto]
+» ${prefix}discovery [texto]
+» ${prefix}metallic2 [texto]
+» ${prefix}fiction [texto]
+» ${prefix}demon [texto]
+» ${prefix}transformer [texto]
+» ${prefix}berry [texto]
+» ${prefix}thunder [texto]
+» ${prefix}magma [texto]
+» ${prefix}3dstone [texto]
+» ${prefix}neon [texto]
+» ${prefix}glitch [texto]
+» ${prefix}harry_potter [texto]
+» ${prefix}embossed [texto]
+» ${prefix}broken [texto]
+» ${prefix}papercut [texto]
+» ${prefix}gradient [texto]
+» ${prefix}glossy [texto]
+» ${prefix}watercolor [texto]
+» ${prefix}multicolor [texto]
+» ${prefix}neon_devil [texto]
+» ${prefix}underwater [texto]
+» ${prefix}bear [texto]
+» ${prefix}wonderfulg [texto]
+» ${prefix}christmas [texto]
+» ${prefix}neon_light [texto]
+» ${prefix}snow [texto]
+» ${prefix}cloudsky [texto]
+» ${prefix}luxury2 [texto]
+» ${prefix}gradient2 [texto]
+» ${prefix}summer [texto]
+» ${prefix}writing [texto]
+» ${prefix}engraved [texto]
+» ${prefix}summery [texto]
+» ${prefix}3dglue [texto]
+» ${prefix}metaldark [texto]
+» ${prefix}neonlight [texto]
+» ${prefix}oscar [texto]
+» ${prefix}minion [texto]
+» ${prefix}holographic [texto]
+» ${prefix}purple [texto]
+» ${prefix}glossyb [texto]
+» ${prefix}deluxe2 [texto]
+» ${prefix}glossyc [texto]
+» ${prefix}fabric [texto]
+» ${prefix}neonc [texto]
+» ${prefix}newyear [texto]
+» ${prefix}newyear2 [texto]
+» ${prefix}metals [texto]
+» ${prefix}xmas [texto]
+» ${prefix}blood [texto]
+» ${prefix}darkg [texto]
+» ${prefix}joker [texto]
+» ${prefix}wicker [texto]
+» ${prefix}natural [texto]
+» ${prefix}firework [texto]
+» ${prefix}skeleton [texto]
+» ${prefix}balloon [texto]
+» ${prefix}balloon2 [texto]
+» ${prefix}balloon3 [texto]
+» ${prefix}balloon4 [texto]
+» ${prefix}balloon5 [texto]
+» ${prefix}balloon6 [texto]
+» ${prefix}balloon7 [texto]
+» ${prefix}steel [texto]
+» ${prefix}gloss [texto]
+» ${prefix}denim [texto]
+» ${prefix}decorate [texto]
+» ${prefix}decorate2 [texto]
+» ${prefix}peridot [texto]
+» ${prefix}rock [texto]
+» ${prefix}glass [texto]
+» ${prefix}glass2 [texto]
+» ${prefix}glass3 [texto]
+» ${prefix}glass4 [texto]
+» ${prefix}glass5 [texto]
+» ${prefix}glass6 [texto]
+» ${prefix}glass7 [texto]
+» ${prefix}glass8 [texto]
+» ${prefix}captain_as2 [texto]
+» ${prefix}robot [texto]
+» ${prefix}equalizer [texto]
+» ${prefix}toxic [texto]
+» ${prefix}sparkling [texto]
+» ${prefix}sparkling2 [texto]
+» ${prefix}sparkling3 [texto]
+» ${prefix}sparkling4 [texto]
+» ${prefix}sparkling5 [texto]
+» ${prefix}sparkling6 [texto]
+» ${prefix}sparkling7 [texto]
+» ${prefix}decorative [texto]
+» ${prefix}chocolate [texto]
+» ${prefix}strawberry [texto]
+» ${prefix}koifish [texto]
+» ${prefix}bread [texto]
+» ${prefix}matrix [texto]
+» ${prefix}blood2 [texto]
+» ${prefix}neonligth2 [texto]
+» ${prefix}thunder2 [texto]
+» ${prefix}3dbox [texto]
+» ${prefix}neon2 [texto]
+» ${prefix}roadw [texto]
+» ${prefix}bokeh [texto]
+» ${prefix}gneon [texto]
+» ${prefix}advanced [texto]
+» ${prefix}dropwater [texto]
+» ${prefix}wall [texto]
+» ${prefix}chrismast [texto]
+» ${prefix}honey [texto]
+» ${prefix}drug [texto]
+» ${prefix}marble [texto]
+» ${prefix}marble2 [texto]
+» ${prefix}ice [texto]
+» ${prefix}juice [texto]
+» ${prefix}rusty [texto]
+» ${prefix}abstra [texto]
+» ${prefix}biscuit [texto]
+» ${prefix}wood [texto]
+» ${prefix}scifi [texto]
+» ${prefix}metalr [texto]
+» ${prefix}purpleg [texto]
+» ${prefix}shiny [texto] 
+» ${prefix}jewelry [texto]
+» ${prefix}jewelry2 [texto]
+» ${prefix}jewelry3 [texto]
+» ${prefix}jewelry4 [texto]
+» ${prefix}jewelry5 [texto]
+» ${prefix}jewelry6 [texto]
+» ${prefix}jewelry7 [texto]
+» ${prefix}jewelry8 [texto]
+» ${prefix}metalh [texto]
+» ${prefix}golden [texto]
+» ${prefix}glitter [texto]
+» ${prefix}glitter2 [texto]
+» ${prefix}glitter3 [texto]
+» ${prefix}glitter4 [texto]
+» ${prefix}glitter5 [texto]
+» ${prefix}glitter6 [texto]
+» ${prefix}glitter7 [texto]
+» ${prefix}metale [texto]
+» ${prefix}carbon [texto]
+» ${prefix}candy [texto]
+» ${prefix}metalb [texto]
+» ${prefix}gemb [texto]
+» ${prefix}3dchrome [texto]
+» ${prefix}metalb2 [texto]
+» ${prefix}metalg [texto]
+» ${prefix}metalg [texto]
 `
 }
 
 exports.nsfw = (prefix) =>{
-	return`*Nsfw & Sfw*
+	return`
 » ${prefix}ahegao
 » ${prefix}ass
 » ${prefix}bdsm
@@ -1058,16 +1058,16 @@ exports.nsfw = (prefix) =>{
 }
 
 exports.other = (prefix) =>{
-return`*Others*
+return`
 » ${prefix}kalkulator
-» ${prefix}smeme [text]
-» ${prefix}memegen [text|text]
+» ${prefix}smeme [texto]
+» ${prefix}memegen [texto1|texto2]
 
 `
 }
 
 exports.tqto = () =>{
-	return`*Thanks To*
+	return`
 • My God
 • My Parents
 • Fatih A.
