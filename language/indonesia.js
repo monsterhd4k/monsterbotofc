@@ -93,10 +93,11 @@ reporta al dueño para que se arregle inmediatamente. 🔧
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
-    return `Hola ${pushname}* 👋🏻
+    return `[🇪🇸] Hola *${pushname}* 👋🏻
 
 *© Monster-Bot*
 *Version: 5.0.0*
+
 
  *『 Informacion del Bot 』* 
 ➣ ${prefix}owner
@@ -120,6 +121,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}del [bot]
 ➣ ${prefix}setppbot [responde a imagen]
 
+
  *『 Menu de Grupo 』* 
 ➣ ${prefix}antilink [on/off]
 ➣ ${prefix}revoke
@@ -131,6 +133,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}group [open/close]
 ➣ ${prefix}tagall [texto]
 ➣ ${prefix}hidetag [texto]
+
 
  *『 Menu de Anime 』* 
 ➣ ${prefix}quotesanime
@@ -272,6 +275,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}dance
 ➣ ${prefix}cringe
 
+
  *『 Menu NSFW/+18 』*
 ➣ ${prefix}ahegao
 ➣ ${prefix}ass
@@ -351,6 +355,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}ngif
 ➣ ${prefix}cuddle
 ➣ ${prefix}zettai
+
 
  *『 Menu TextPro 』*
 ➣ ${prefix}halloween2 [texto1|texto2]
@@ -533,6 +538,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}metalb2 [texto]
 ➣ ${prefix}metalg [texto]
 ➣ ${prefix}metalg [texto]
+
 
  *『 Otros 』*
 ➣ ${prefix}kalkulator
