@@ -93,7 +93,7 @@ reporta al dueño para que se arregle inmediatamente. 🔧
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
-    return `[🇪🇸] Hola *${pushname}* 👋🏻
+    return `*[🇪🇸]* Hola *${pushname}* 👋🏻
 
 *© Monster-Bot*
 *Version: 5.0.0*
@@ -574,7 +574,7 @@ Sancion: *❌ BLOQUEO PERMANENTE*
 ➡️ Este bot usa múltiples prefijos. Eso significa que puede usar el prefijo "#" "." y otro prefijo razonable.
 
 
-Si comprende las reglas, escriba *${prefix}allmenu* para comenzar.
+Si comprende las reglas, escriba *.allmenu* para comenzar.
 `
 }
 exports.welcome = () =>{
@@ -632,7 +632,7 @@ return`
 `}
 
 exports.group = (prefix) =>{
-	return`*Group*
+	return`
 » ${prefix}antilink [on/off]
 » ${prefix}revoke
 » ${prefix}leave
