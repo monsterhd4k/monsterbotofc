@@ -6,7 +6,7 @@ const setting = JSON.parse(fs.readFileSync('./setting.json'));
 global.owner = ["595985770265"]
 global.packname = ''
 global.youtube = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-global.author = 'ㅤ'
+global.author = ''
 global.sessionName = 'kizakixd'
 global.flaming = "https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&fontname=Fira+Sans+Bold+Italic&&shadowType=0&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text="
 global.prefa = ['','!','.','🐦','🐤','🗿']
